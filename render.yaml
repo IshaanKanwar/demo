@@ -2,4 +2,6 @@ services:
   - type: web
     name: my-java-service
     env: docker
-    dockerfilePath: Dockerfile
+    dockerfilePath: ./Dockerfile
+    buildCommand: echo "Building with Dockerfile"
+    startCommand: echo "Starting with Dockerfile"
