@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: my-java-service
+    env: docker
+    dockerfilePath: Dockerfile
